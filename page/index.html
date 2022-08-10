@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../js/index.js"></script>
+    <link rel="shortcut icon" href="../images/icon.jpg" type="image/x-icon">
+    <title>TecnoTec</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="image">
+            <img src="../images/pc.png" alt="Computador">
+        </div>
+        <div class="nav">
+            <nav>
+                <a href="../page/contato.html">Contatos</a>
+                <a href="../page/produtos.html">Produtos</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main-index">
+        <section>
+            <header>
+                <h3>Quem somos ?</h3>
+            </header>
+            <aside class="descricao">
+                <p>Somos uma empresa especialiazada em produtos eletrônicos e de informáticas da mais alta qualidade, aqui voçê consegue encontrar de tudo e com a maior acessibilidade disponível ajustável com seu bolso.
+                </p>
+            </aside>
+        </section>
+        <section class="container">
+            <header>
+                <h2>Tecnologia Tec</h2>
+            </header>
+            <div class="apresentacao">
+                <div>
+                    <p>Os produtos que oferecemos são enviados pelos correios com prioridade aos destinos mais próximo do seu endereço, por esse motivo antes de ir as compras preencha o formulário abaixo para sabermos mais sobre você e para que o envio de
+                        seus produtos possam chegar com segurança à sua residência.
+                    </p>
+                </div>
+                <div class="form">
+                    <form onclick="funcao()">
+                        <div>
+                            <h3>Formulario</h3>
+                        </div>
+                        <div class="campoInput">
+                            <label for="inputNome">Nome</label>
+                            <input type="text" required placeholder="Digite seu nome" id="inputNome">
+                        </div>
+                        <div class="campoInput">
+                            <label for="inputSobrenome">Sobrenome</label>
+                            <input type="text" required placeholder="Digite seu sobrenome" id="inputSobrenome">
+                        </div>
+                        <div class="campoInput">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" required placeholder="Email" id="inputEmail">
+                        </div>
+                        <div class="campoInputCep">
+                            <label for="inputCEP">CEP</label>
+                            <input class="endereco" name="cep" type="search" required placeholder="Ex: 00011222" maxlength="8" id="inputCEP">
+                            <button type="button" class="search">&#128269;</button>
+                        </div>
+                        <div class="camposEndereco">
+                            <label class="none" for="inputRua">Rua</label>
+                            <input class="endereco none" name="rua" type="text" disabled placeholder="Ex: Rua Guatemala" id="inputRua">
+                            <label class="none" for="inputBairro">Bairro</label>
+                            <input class="endereco none" name="bairro" type="text" disabled placeholder="Ex: Vila Brasília" id="inputBairro">
+                            <label class="none" for="inputCidade">Cidade</label>
+                            <input class="endereco none" name="cidade" type="text" disabled placeholder="Ex: São Carlos" id="inputCidade">
+                            <label class="none" for="inputEstado">Cidade</label>
+                            <input class="endereco none" name="estado" type="text" disabled placeholder="Ex: São Paulo" id="inputEstado">
+                            <label class="none" for="inputNumeroCasa">Número</label>
+                            <input class="endereco none" type="text" required placeholder="Ex: 257" id="inputNumeroCasa">
+                        </div>
+                        <div class="btn-envio">
+                            <button class="envio-form submit" type="submit">Enviar dados</button>
+                            <button class="envio-form reset" type="reset">Resetar dados</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Agradecemos pela preferência</p>
+        </div>
+    </footer>
+</body>
+
+</html>
